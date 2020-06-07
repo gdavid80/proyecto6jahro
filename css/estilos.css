@@ -1,0 +1,269 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+  
+  /** Globales **/
+  img {
+    max-width: 100%;
+    
+  }
+  .contenedor {
+    width: 100%;
+    max-width: 140rem; /** = 1200px; **/
+    margin: 0 auto;
+    
+  }
+
+/*header*/
+.logo-marca img{
+  margin-right: 4rem;
+}
+.redes-sociales a{
+  color: #ffffff;
+  margin-right: 1rem;
+  font-size: 20px;
+  text-decoration:aqua;
+  
+  margin-right: 2rem;
+}
+.redes-sociales a:hover{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+
+.contenido-header{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+  header.site-header{
+    
+    background-image: url(../img/barrasup.png);
+    background-position: center center;
+    background-size: cover;
+    
+    height: 100px;
+    margin-top: 1rem;
+    
+    
+    
+   }
+
+   /*carouel*/
+   .carousel{
+     width: 140rem;
+     margin: 0 auto;
+     margin-top: 1rem;
+     margin-bottom:1rem;
+   }
+   /*productos destacados*/
+
+   
+   .iconos-producto{
+     display: flex;
+     justify-content:space-between;
+     padding-top: 10px;
+     
+     
+     
+   }
+   .imagen-fondo{
+    
+    background-image: url(../img/productos-destacados.png)!important;
+    background-position: center center;
+    background-size: cover;
+    
+    
+   }
+   
+  /*contenedores*/
+  .icono:hover img{
+    -webkit-transform: scale(1.2);
+    -webkit-transition-duration: 1s;
+  }
+  .producto img{
+      -webkit-transition: all 5s ease-in-out;
+  }
+  .icono img{
+    padding-bottom: 0px;
+  }
+
+  .contenedores{
+   
+    max-width: 876px;
+    margin: 0 auto;
+    
+  }
+ 
+  .barra{
+    padding-bottom: 10px;
+  }
+  .barra img{
+    max-width: 876px;
+    
+    margin-bottom:-5px;
+   
+  }
+  .barra h1{
+    font-size: 1.9rem;
+    color: #ffffff; 
+    
+  
+    position: absolute;
+    top: 46px;
+    right: 887px;
+      
+    
+    
+  }
+
+  .centrado{
+    max-width: 876px;
+    margin: 0 auto;
+    
+  }
+  .barra1{
+    position: relative;
+margin-top: 10px;
+  }
+  .barra1 p{
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  .barra1 h1{
+    font-size: 2rem;
+    color: #ffffff;
+    position: absolute;
+    left: : 250px;
+    top: 47px;
+  }
+
+  .titulo{
+    margin-left: 10px;
+  }
+   h4{
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .titulo img{
+    margin-bottom: 10px;
+  }
+  /*recuadros*/
+  .titulo1 h1{
+    font-size: 10px;
+    color: aqua;
+  }
+  .barra2{
+    padding-bottom: 10px;
+  }
+  .recuadros{
+    display: flex;
+    justify-content: space-between;
+    
+
+  }
+  .carta{
+    flex-basis:calc(33.3% - 1rem);
+    text-align: center;
+}
+
+/*catalogos*/
+.parlantes{
+  background-image: url(../img/fondo-parlantes.png);
+  background-position: center center;
+  background-size: cover;
+  scroll-margin-top: 2rem;
+}
+.parte-sup{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 0.5rem;
+  padding-top: 2rem;
+  
+  
+}
+.parte-inf{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.abajo{
+  flex-basis:calc(33.3% - 1rem);
+    text-align: center;
+}
+
+
+
+.formulario{
+  
+  background-position: center center;
+  background-size: cover;
+  scroll-margin-top: 2rem;
+  background-color: rgb(168, 161, 161);
+}
+
+.sub-footer{
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+ 
+  }
+
+p{
+  text-align: center;
+}
+
+h3{
+  
+  position: absolute;
+  bottom: 55.7rem;
+  left: 27rem;
+  color:white;
+
+}
+
+  form input[type="text"],
+  form input[type="tel"],
+  form input[type="email"]{
+    width:100%;
+    padding:20px 20px;
+    border-radius:1px;
+    margin:8px 0;
+    border-color: rgb(175, 171, 171);
+  }
+
+  .estilotextarea{
+    width:100%;
+    height: 21rem;
+    padding:40px 20px;
+    border-radius:1px;
+    border-color: rgb(175, 171, 171);
+    margin:8px 0;
+     
+  }
+
+
+.formu{
+  background-color: white;
+  padding-bottom: 1.4rem;
+}
+/*footer*/
+.sub-footer a{
+  margin-left: 2.5rem;
+}
+
