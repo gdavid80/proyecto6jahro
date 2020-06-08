@@ -18,7 +18,7 @@ html {
   }
   .contenedor {
     width: 100%;
-    max-width: 140rem; /** = 1200px; **/
+    max-width: 100%; /** = 1200px; **/
     margin: 0 auto;
     
   }
@@ -65,7 +65,7 @@ html {
 
    /*carouel*/
    .carousel{
-     width: 140rem;
+     width: 100%;
      margin: 0 auto;
      margin-top: 1rem;
      margin-bottom:1rem;
