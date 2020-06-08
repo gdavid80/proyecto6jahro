@@ -83,7 +83,7 @@ html {
    }
    .imagen-fondo{
     
-    background-image: url(../img/productos-destacados.png)!important;
+    background-image: url(../img/productos-destacados.png);
     background-position: center center;
     background-size: cover;
     
@@ -167,6 +167,7 @@ margin-top: 10px;
     font-size: 10px;
     color: aqua;
   }
+  
   .barra2{
     padding-bottom: 10px;
   }
@@ -179,6 +180,12 @@ margin-top: 10px;
   .carta{
     flex-basis:calc(33.3% - 1rem);
     text-align: center;
+    
+}
+.carta:hover img{
+  -webkit-transform: scale(1.1);
+  -webkit-transition-duration: 1s;
+  
 }
 
 /*catalogos*/
@@ -200,11 +207,13 @@ margin-top: 10px;
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  
 }
 .abajo{
   flex-basis:calc(33.3% - 1rem);
     text-align: center;
+    margin-right: -5px;
+    
 }
 
 
@@ -236,6 +245,7 @@ h3{
   color:white;
 
 }
+
 
   form input[type="text"],
   form input[type="tel"],
